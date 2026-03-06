@@ -55,8 +55,11 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
+    @apply text-foreground font-sans antialiased;
     font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, hsl(262 70% 8%) 0%, hsl(262 60% 18%) 30%, hsl(270 50% 25%) 60%, hsl(262 70% 12%) 100%);
+    background-attachment: fixed;
+    min-height: 100vh;
   }
 
   html {
